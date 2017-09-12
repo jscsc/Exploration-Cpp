@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <crtdbg.h>
 
-int singly_linked_list_test_main() {
+int main() {
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
 	std::shared_ptr<SimpleSinglyLinkedList> list = std::make_shared<SimpleSinglyLinkedList>();

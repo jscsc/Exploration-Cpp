@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <crtdbg.h>
 
-int main() {
+int binary_main() {
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
 	std::shared_ptr<SimpleBinarySearchTree<int>> tree = std::make_shared<SimpleBinarySearchTree<int>>(15);
