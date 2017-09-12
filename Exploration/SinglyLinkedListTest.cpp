@@ -10,7 +10,7 @@
 int main() {
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
-	std::shared_ptr<SimpleSinglyLinkedList> list = std::make_shared<SimpleSinglyLinkedList>();
+	std::shared_ptr<SimpleSinglyLinkedList<int>> list = std::make_shared<SimpleSinglyLinkedList<int>>();
 
 	std::cout << "List is empty: " << (list->isEmpty() == true ? "true" : "false") << std::endl;
 

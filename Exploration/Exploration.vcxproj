@@ -115,7 +115,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearchTreeTest.cpp" />
-    <ClCompile Include="SimpleSinglyLinkedList.cpp" />
     <ClCompile Include="SinglyLinkedListTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

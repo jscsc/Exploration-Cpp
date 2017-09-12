@@ -26,9 +26,6 @@
     <ClCompile Include="BinarySearchTreeTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SimpleSinglyLinkedList.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="SinglyLinkedListTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
